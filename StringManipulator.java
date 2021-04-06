@@ -4,7 +4,7 @@ public class StringManipulator{
     public String trimAndConcat(String firstWord, String secondWord){
         String firstString = firstWord.trim();
         String secondString = secondWord.trim();
-        String concatenatedString = firstString + secondString;
+        String concatenatedString = firstString.concat(secondString);
         return concatenatedString;
     }
 
